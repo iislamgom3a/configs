@@ -4,7 +4,6 @@
 - **vim/**
   - `download_plugins.sh`: A shell script to download and install the necessary plugins.
   - `init.vim`: The main Neovim configuration file.
-- **vs code/**: (Not covered in this guide)
 
 ## Installation Steps
 
