@@ -10,7 +10,6 @@ mkdir -p "$PLUG_DIR"
 declare -A plugins=(
   ["nerdtree"]="https://github.com/preservim/nerdtree.git"
   ["delimitmate"]="https://github.com/raimondi/delimitmate.git"
-  ["gruvbox"]="https://github.com/morhetz/gruvbox.git"
   ["vim-airline"]="https://github.com/vim-airline/vim-airline.git"
   ["solarized"]="https://github.com/altercation/solarized.git"
 )
