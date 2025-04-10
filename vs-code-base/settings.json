@@ -1,0 +1,18 @@
+{
+    "editor.cursorStyle": "underline",
+    "editor.cursorBlinking": "expand",
+    "vim.cursorStylePerMode.insert": "underline",
+    "vim.cursorStylePerMode.normal": "block",
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+        "file:///c:/Users/iislamgom3a/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "workbench.colorTheme": "Gruvbox Glass",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "terminal.integrated.gpuAcceleration": "off",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+}
