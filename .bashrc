@@ -2,8 +2,9 @@
 #-----------------------------------------------------------------
 # compile cpp file & remove it's bin file "for clean dir" 
 # take one arg "the name of c++ file"
-cp(){
-    g++ "$1" -o a.out && ./a.out	
+cpp(){
+    build.sh "$1" && echo "---------------------------------------------------------------------------------------------" 
+    ./a.out	
     rm a.out 
 }
 # make dir with the name of the contest "first argument"
@@ -11,9 +12,9 @@ cp(){
 # make a number of c++ files "second argument" 
 contest(){
     mkdir -p "$1" && cd "$1" 
-    touch in.txt out.txt
+    touch in.txt 
     for ((i=0; i<$2; i++)); do
         file=$(printf "%s.cpp" "$(echo {a..z} | cut -d' ' -f$((i+1)))")
         touch "$file"
     done
-}
+} 
